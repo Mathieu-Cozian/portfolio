@@ -1,1 +1,66 @@
 // Specific CSS for your home-page
+.container-landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+}
+.box-shadow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#margin-top{
+  margin-top: 50px;
+}
+
+.icon{
+  color: #2FB5AE;
+}
+// LANDING
+
+// LEFT PART
+.landing-text-container{
+  height: 100%;
+  background-color: white;
+  padding: 15px;
+  p{
+    color: $light-gray ;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  h1{
+    color: $marine-blue;
+  }
+  strong{
+    color: $light-green;
+  }
+}
+.landing-info-container{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 5px;
+  i{
+    display: flex;
+    justify-content: center;
+  }
+}
+#logo{
+  height: 50px;
+}
+.cv{
+  background-color: white;
+  margin-top: 20px;
+}
+
+// RIGHT PART
+.pic-container{
+  margin-top: 150px;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  img{
+    border-radius: 30px;
+    height: 100%;
+    padding: 20px;
+  }
+}

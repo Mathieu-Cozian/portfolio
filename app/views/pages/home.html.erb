@@ -1,2 +1,53 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <div class="container-landing">
+        <%# HEADER %>
+    <div style="height: 100%;">
+          <div class= "landing-text-container">
+            <%# IMG AND HEADLINE %>
+            <%= image_tag('perso-logo', id:"logo") %>
+            <h1>Hi, I'm Mathieu Cozian, a <strong>Digital marketing</strong> student and <strong>Fullstack Web Developper</strong></h1>
+
+          <%# INFO CONTAINER 1 %>
+            <div class="landing-info-container" id="margin-top">
+              <i class="fa-solid fa-briefcase fa-2xl icon" style="margin-right: 8px;"></i>
+              <p>Fullstack Web Developer</p>
+            </div>
+
+            <%# INFO CONTAINER 2 %>
+              <div class="landing-info-container">
+                <i class="fa-solid fa-envelope fa-2xl icon" style="margin-right: 8px;"></i>
+                <p>mathieu.cozian@ieseg.fr</p>
+              </div>
+
+            <%# INFO CONTAINER 3 %>
+              <div class="landing-info-container">
+                <i class="fa-solid fa-graduation-cap fa-2xl icon"></i>
+                <p>IESEG / Le Wagon</p>
+              </div>
+
+            <%# INFO CONTAINER 4 %>
+              <div class="landing-info-container">
+                <i class="fa-solid fa-location-dot fa-2xl icon" style="margin-right: 12px;"></i>
+                <p>Lille, France</p>
+              </div>
+          </div>
+          <%# END OF DIV FOR INFO %>
+          <%# DIV FOR CV AND CONTACT  %>
+      <div class="cv">
+        <p>Mon CV et contact</p>
+        <div class="d-flex">
+          <button>Download My CV</button>
+          <button>Contact Me</button>
+        </div>
+      </div>
+    </div>
+
+                  <%# RIGHT SIDE %>
+    <%# PICTURE %>
+    <div class="pic-container box-shadow">
+    <%= image_tag('landing',) %>
+    </div>
+
+  </div>
+
+</div>
